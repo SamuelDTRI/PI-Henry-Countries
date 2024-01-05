@@ -1,0 +1,76 @@
+/* NavBar.module.css */
+
+.NavBar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.NavLink {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.NavLink:hover {
+  background-color: #555;
+}
+
+.activeLink {
+  background-color: #007bff; /* Color de fondo para el enlace activo */
+}
+
+/* Agrega estas reglas al final de tu archivo NavBar.module.css */
+
+/* Estilos para los botones generales */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos específicos para los botones de Reset Countries, A-Z, Z-A, Filter by Pop Asc, Filter by Pop Dsc, Activities */
+button[name="resetCountries"],
+button[name="A-Z"],
+button[name="Z-A"],
+button[name="filterByPopAscending"],
+button[name="filterByPop"],
+button[name="activities"] {
+  background-color: #28a745; /* Cambia el color según tus preferencias */
+}
+
+button[name="resetCountries"]:hover,
+button[name="A-Z"]:hover,
+button[name="Z-A"]:hover,
+button[name="filterByPopAscending"]:hover,
+button[name="filterByPop"]:hover,
+button[name="activities"]:hover {
+  background-color: #218838; /* Cambia el color según tus preferencias */
+}
+
+/* Estilos para los botones de paginado (Prev, Next) */
+div > button[name="prev"],
+div > button[name="next"] {
+  background-color: #6c757d; /* Cambia el color según tus preferencias */
+}
+
+div > button[name="prev"]:hover,
+div > button[name="next"]:hover {
+  background-color: #5a6268; /* Cambia el color según tus preferencias */
+}
+
+/* Estilos para el label de paginado */
+label {
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+}

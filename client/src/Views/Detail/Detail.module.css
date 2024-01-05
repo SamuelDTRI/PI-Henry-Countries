@@ -1,0 +1,60 @@
+.DetailContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Detail {
+  font-family: "Countries";
+  background-color: #1857a9;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Evita el desplazamiento vertical */
+  min-height: 100vh;
+}
+
+.details_id {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.contDetail {
+  background-color: #fff;
+  border: 1em solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%; /* Ajusta según tus necesidades */
+  max-width: 600px; /* Limita el ancho máximo */
+  margin: 20px auto; /* Centra horizontalmente y agrega margen superior e inferior */
+}
+
+.name {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.enlargedInfo {
+  font-size: 18px; /* Ajusta según tus necesidades */
+  margin-bottom: 8px; /* Ajusta según tus necesidades */
+}
+
+.activitiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.activity {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

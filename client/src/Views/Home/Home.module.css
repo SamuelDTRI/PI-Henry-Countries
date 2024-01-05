@@ -1,0 +1,51 @@
+.HomeCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.allHomeHeader{
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  /* Elimina estilos de centrado y ajusta según sea necesario */
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  padding: 10px; /* Agrega espaciado según sea necesario */
+}
+
+.CardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Puedes usar 'space-between' si prefieres que las tarjetas estén más separadas en los extremos */
+}
+
+.Card {
+  /* Estilos para cada tarjeta de país, ajusta según sea necesario */
+  width: 22%; /* Ajusta el ancho según tus necesidades para que haya 4 tarjetas por fila */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total de la tarjeta */
+}
+
+@media (max-width: 1200px) {
+  .Card {
+    width: 30%; /* Ajusta el ancho en pantallas más pequeñas según tus necesidades */
+  }
+}
+
+@media (max-width: 768px) {
+  .Card {
+    width: 48%; /* Ajusta el ancho en pantallas más pequeñas según tus necesidades */
+  }
+}
+
+@media (max-width: 576px) {
+  .Card {
+    width: 100%; /* En pantallas muy pequeñas, ocupa el ancho completo */
+  }
+}

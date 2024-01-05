@@ -1,0 +1,52 @@
+.formCont {
+  font-family: "Countries";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  margin-bottom: 0; /* Elimina el espacio en blanco debajo del formulario */
+}
+.FormContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  width: 25rem;
+  max-width: 90vw; /* Establece un ancho máximo para mantener la legibilidad */
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: #1857a9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  margin-bottom: 0; /* Elimina el espacio en blanco debajo del formulario */
+}
+
+.form label {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.form input,
+.form select {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
